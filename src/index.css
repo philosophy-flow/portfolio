@@ -33,7 +33,6 @@ html {
 
 body {
   background-color: var(--home-bg-color);
-  overflow-y: hidden;
 }
 
 
@@ -51,6 +50,7 @@ body {
   flex-direction: column;
   animation: fadeIn 2s;
   min-height: 100vh;
+  overflow-y: hidden;
 }
 
 
