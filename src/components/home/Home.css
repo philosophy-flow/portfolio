@@ -35,9 +35,12 @@
 }
 
 @media only screen and (max-height: 500px){.home-text {font-size: 2.25rem;}}
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 650px) {
+  .home-text {font-size: 2.5rem;}
+}
+
+@media only screen and (max-width: 450px) {
   .Home {
     height: 75vh;
   }
-  .home-text {font-size: 2.25rem;}
 }
