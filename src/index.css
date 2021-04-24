@@ -33,9 +33,9 @@ html {
 
 body {
   background-color: var(--home-bg-color);
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
 }
+
 
 :root {
   --home-bg-color: #e5eaed;
@@ -50,6 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   animation: fadeIn 2s;
+  min-height: 100vh;
 }
 
 
@@ -88,6 +89,7 @@ body {
 @media only screen and (max-width: 625px) {
   .navigation {
     justify-content: space-between;
+    height: 10vh;
   }
 
   .nav-link {
