@@ -80,6 +80,12 @@ html {
 
 
 @media only screen and (max-width: 625px) {
+  /* prevent vertical scroll on mobile */
+  .main {
+    min-height: 99vh;
+  }
+
+
   .navigation {
     justify-content: space-between;
   }
