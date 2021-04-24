@@ -27,6 +27,14 @@ html {
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
   background-color: #E3E2DF;
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+
+  background-color: var(--home-bg-color);
 }
 
 :root {
@@ -38,8 +46,7 @@ html {
 
 .main {
   position: relative;
-  background-color: var(--home-bg-color);
-  min-height: 100vh;
+
 
   display: flex;
   flex-direction: column;
@@ -80,12 +87,6 @@ html {
 
 
 @media only screen and (max-width: 625px) {
-  /* prevent vertical scroll on mobile */
-  .main {
-    min-height: 99vh;
-  }
-
-
   .navigation {
     justify-content: space-between;
   }
