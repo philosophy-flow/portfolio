@@ -33,7 +33,7 @@ html {
 
 body {
   background-color: var(--home-bg-color);
-  /* height: -webkit-fill-available; */
+  overflow-y: hidden;
 }
 
 
