@@ -50,7 +50,9 @@ body {
   flex-direction: column;
   animation: fadeIn 2s;
   min-height: 100vh;
-  overflow-y: hidden;
+  min-height: -webkit-fill-available;
+  border: 2px solid red;
+
 }
 
 
