@@ -5,6 +5,7 @@
   max-width: 1200px;
   height: 80vh;
   margin: 0 auto;
+  margin-bottom: 1vh;
 
   background-image: url("../../assets/subway.jpg");
   background-position: center;

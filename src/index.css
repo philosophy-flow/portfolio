@@ -50,9 +50,6 @@ body {
   flex-direction: column;
   animation: fadeIn 2s;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
-  border: 2px solid red;
-
 }
 
 
@@ -97,6 +94,13 @@ body {
   .nav-link {
     font-size: 1.5rem;
     margin-left: 0;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  .main {
+    min-height: -webkit-fill-available;
   }
 }
 
