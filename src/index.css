@@ -27,14 +27,14 @@ html {
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
   background-color: #E3E2DF;
+
   height: -webkit-fill-available;
 }
 
 body {
+  background-color: var(--home-bg-color);
   min-height: 100vh;
   min-height: -webkit-fill-available;
-
-  background-color: var(--home-bg-color);
 }
 
 :root {
@@ -46,7 +46,6 @@ body {
 
 .main {
   position: relative;
-
 
   display: flex;
   flex-direction: column;
