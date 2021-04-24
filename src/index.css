@@ -89,7 +89,6 @@ body {
 
   .navigation {
     justify-content: space-between;
-    height: 10vh;
   }
 
   .nav-link {
@@ -102,6 +101,10 @@ body {
 @media only screen and (max-width: 450px) {
   .main {
     min-height: -webkit-fill-available;
+  }
+
+  .navigation {
+    height: 10vh;
   }
 }
 
