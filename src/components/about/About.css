@@ -1,0 +1,79 @@
+.About {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  max-width: 1200px;
+  min-height: 80vh;
+  margin: 2vh auto;
+}
+
+.portrait-container {
+  width: 50%;
+
+  background-image: url("../../assets/portrait.jpg");
+  background-position: top 0 center;
+  background-size: cover;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text-container {
+  width: 50%;
+  min-width: 50%;
+}
+
+.about-header {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-body {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0 2rem;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .About {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  .portrait-container {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .about-text-container {
+    width: 100%;
+    min-width: 50%;
+  }
+
+  .about-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-body {
+    font-size: .9rem;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 750px)
