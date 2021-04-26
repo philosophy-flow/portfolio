@@ -1,4 +1,6 @@
 import './About.css';
+import portrait from '../../assets/portrait.jpg';
+
 import React from 'react';
 import {Link} from 'react-router-dom';
 
@@ -24,7 +26,9 @@ function About() {
             <Link className="about-nav-btn" to="/contact">get in touch </Link>
           </div>
         </div>
-        <div className="portrait-container"></div>
+        <div className="portrait-container">
+          <img src={portrait} className="portrait" alt="portrait" />
+        </div>
       </motion.section>
     </>
   );
