@@ -1,7 +1,6 @@
 import './About.css';
 import React from 'react';
 import {Link} from 'react-router-dom';
-import portrait from '../../assets/portrait.jpg';
 
 import {motion} from "framer-motion";
 
@@ -25,9 +24,7 @@ function About() {
             <Link className="about-nav-link" to="/contact">get in touch </Link>
           </div>
         </div>
-        <div className="portrait-container">
-          <img rel="preload" className="portrait" src={portrait} alt="portrait" />
-        </div>
+        <div className="portrait-container"></div>
       </motion.section>
     </>
   );
