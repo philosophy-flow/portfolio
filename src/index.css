@@ -75,7 +75,9 @@ html {
   margin-left: 1.5rem;
 }
 
+/* nav link font size for varying vh */
 @media only screen and (max-height: 500px){.nav-link {font-size: 2rem;}}
+@media only screen and (max-height: 400px){.nav-link {font-size: 1.5rem;}}
 
 /* NO HOVER ON MOBILE */
 @media only screen and (min-width: 500px) {
@@ -85,6 +87,7 @@ html {
   }
 }
 
+
 @media only screen and (max-width: 650px) {
   .home-text {font-size: 2.5rem;}
 
@@ -93,7 +96,7 @@ html {
   }
 
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-left: 0;
   }
 }
@@ -106,6 +109,18 @@ html {
 
   .navigation {
     height: 13vh;
+  }
+}
+
+/* xtra small */
+@media only screen and (max-width: 340px) {
+  .main {
+    min-height: -webkit-fill-available;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    margin-left: 0;
   }
 }
 
