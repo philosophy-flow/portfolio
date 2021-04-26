@@ -17,6 +17,16 @@
   }
 }
 
+:root {
+  --home-bg-color: #e5eaed;
+  --btn-color: rgba(141, 142, 143, 0.21);
+  --btn-hover-color: rgba(141, 142, 143, 0.5);
+
+
+  --head-font: 'Bebas Neue', sans-serif;
+  --sub-font: 'Roboto Slab', serif;
+}
+
 
 /* GLOBAL */
 * {
@@ -29,21 +39,14 @@
 html {
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
-  /* font-family: 'Noto Sans', sans-serif; */
-  font-family: 'Roboto Slab', serif;
+  font-family: var(--sub-font);
   background-color: var(--home-bg-color);
 
   height: -webkit-fill-available;
 }
 
 
-:root {
-  --home-bg-color: #e5eaed;
-
-  --main-dark-color: #2A282B;
-  --orange-hover-color: #BC905F;
-}
-
+/* MAIN = APP BODY */
 .main {
   position: relative;
 
@@ -56,16 +59,18 @@ html {
 
 /* NAVIGATION */
 .navigation  {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--head-font);
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
   height: 15vh;
 
   width: 90%;
   max-width: 1200px;
+
   margin: 0 auto;
-  background: transparent;
 }
 
 .nav-link {
@@ -77,14 +82,12 @@ html {
 
 /* nav link font size for varying vh */
 @media only screen and (max-height: 500px){.nav-link {font-size: 2rem;}}
-@media only screen and (max-height: 400px){.nav-link {font-size: 1.5rem;}}
+@media only screen and (max-height: 400px){.nav-link {font-size: 1.75rem;}}
 
 
 
-
+/* switching to column (portrait display) */
 @media only screen and (max-width: 650px) {
-  .home-text {font-size: 2.5rem;}
-
   .navigation {
     justify-content: space-between;
   }
@@ -94,6 +97,7 @@ html {
     margin-left: 0;
   }
 }
+
 
 /* MOBILE */
 @media only screen and (max-width: 450px) {

@@ -12,8 +12,6 @@
   background-size: cover;
 }
 
-
-
 .home-content-container {
   position: absolute;
   bottom: 0;
@@ -30,7 +28,7 @@
 }
 
 .home-text {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--head-font);
   font-size: 7vh;
 }
 
@@ -45,7 +43,6 @@
     height: 72vh;
   }
 }
-
 
 /* Fixed font-size on small vh displays */
 @media only screen and (max-height: 450px) {

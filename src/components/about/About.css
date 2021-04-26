@@ -6,10 +6,11 @@
 
   width: 90%;
   max-width: 1200px;
-  margin: 10vh auto;
-  margin-bottom: 2.5rem;
+  margin: 8vh auto;
 }
 
+
+/* PICTURE */
 .portrait-container {
   width: 350px;
 }
@@ -19,6 +20,9 @@
   height: auto;
 }
 
+
+
+/* TEXT CONTENT */
 .about-text-container {
   width: 70%;
   margin-right: 4rem;
@@ -26,44 +30,39 @@
 
 .about-header {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 .about-body {
   font-size: 1rem;
   line-height: 1.65;
+  margin: 1rem 0;
 }
 
-.name {
+.bold-txt {
   font-weight: bold;
 }
 
-.about-button-container {
-  margin-top: 1.5rem;
-}
 
 
+/* BUTTONS */
 .about-nav-btn {
   font-size: .9rem;
   text-decoration: none;
   color: #000;
   margin-right: 1.5rem;
 
-  background-color: rgba(141, 142, 143, 0.21);
+  background-color: var(--btn-color);
   padding: .4rem;
-  border-radius: .5rem;
+  border-radius: .3rem;
 }
 
-/* NO HOVER ON MOBILE */
-@media only screen and (min-width: 500px) {
-  .about-nav-btn:hover {
-    background-color: rgba(141, 142, 143, 0.5);
-    color: #fff;
-    font-size: .9rem;
-  }
+.about-nav-btn:hover {
+  background-color: var(--btn-hover-color);
+  color: var(--home-bg-color);
 }
 
 
+/* portrait view */
 @media only screen and (max-width: 650px) {
   .About {
     flex-direction: column-reverse;
@@ -72,39 +71,35 @@
     margin-top: 0;
   }
 
+
+  /* PICTURE */
   .portrait-container {
-    width: 75%;
-    height: auto;
-
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    margin-bottom: 1.5rem
+    width: 70%;
+    margin-bottom: 1.5rem;
   }
 
+
+  /* TEXT CONTENT */
   .about-text-container {
-    width: 90%;
+    width: 100%;
     margin-right: 0;
   }
 
   .about-header {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: .75rem;
+    /* margin-bottom: .75rem; */
   }
 
   .about-body {
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
     line-height: 1.5;
-    margin: 0;
-    margin-bottom: 2rem;
   }
 
+
+  /* BUTTONS */
   .about-button-container {
     text-align: center;
-  }
-
-  .about-nav-btn {
-    font-size: .9rem;
   }
 }
