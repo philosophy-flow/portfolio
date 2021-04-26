@@ -2,10 +2,18 @@ import './About.css';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import {motion} from "framer-motion";
+
 function About() {
   return (
     <>
-      <section className="About">
+      <motion.section
+        className="About"
+        initial={{opacity: 0, y: 25}}
+        animate={{opacity: 1, y: 0}}
+        exit={{opacity: 0, y: 25}}
+        transition={{duration: .5}}
+      >
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
           <p className="about-body">
@@ -17,7 +25,7 @@ function About() {
           </div>
         </div>
         <div className="portrait-container"></div>
-      </section>
+      </motion.section>
     </>
   );
 }
