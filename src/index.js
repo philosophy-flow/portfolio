@@ -1,6 +1,8 @@
 import './index.css';
-import {React} from 'react';
+import {React, useEffect} from 'react';
 import ReactDOM from 'react-dom';
+
+import portrait from './assets/portrait.jpg';
 
 // React router
 import {BrowserRouter, Route, Switch, Link, useLocation} from 'react-router-dom';
@@ -30,6 +32,12 @@ ReactDOM.render(
 
 function App() {
   const location = useLocation();
+
+  //preload images
+  useEffect(() => {
+    const img = new Image();
+    img.src = portrait;
+  }, []);
 
   return (
       <main className="main">

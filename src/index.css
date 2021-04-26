@@ -36,17 +36,6 @@ html {
   height: -webkit-fill-available;
 }
 
-/* preload images */
-/* body::after{
-   position:absolute;
-   width:0;
-   height:0;
-   overflow:hidden;
-   z-index:-1;
-   content:url("./assets/subway.jpg") url("./assets/portrait.jpg");
-} */
-
-
 
 :root {
   --home-bg-color: #e5eaed;
