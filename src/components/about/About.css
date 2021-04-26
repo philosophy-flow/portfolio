@@ -58,6 +58,7 @@
 
 .about-nav-btn:hover {
   background-color: var(--btn-hover-color);
+  transition: .25s;
   color: var(--home-bg-color);
 }
 
