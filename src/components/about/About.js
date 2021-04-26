@@ -12,7 +12,7 @@ function About() {
         initial={{opacity: 0, y: 25}}
         animate={{opacity: 1, y: 0}}
         exit={{opacity: 0, y: 25}}
-        transition={{duration: 1}}
+        transition={{duration: .5}}
       >
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
