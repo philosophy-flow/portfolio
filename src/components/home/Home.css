@@ -48,6 +48,6 @@
 
 
 /* Fixed font-size on small vh displays */
-@media only screen and (max-height: 500px) {
-  .home-text {font-size: 2.5rem;}
+@media only screen and (max-height: 450px) {
+  .home-text {font-size: 1.75rem;}
 }
