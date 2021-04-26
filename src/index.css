@@ -79,12 +79,6 @@ html {
 @media only screen and (max-height: 500px){.nav-link {font-size: 2rem;}}
 @media only screen and (max-height: 400px){.nav-link {font-size: 1.5rem;}}
 
-/* NO HOVER ON MOBILE */
-@media only screen and (min-width: 500px) {
-  .nav-link:hover {
-    color: #b47c43;
-  }
-}
 
 
 

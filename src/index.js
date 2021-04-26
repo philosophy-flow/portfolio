@@ -1,5 +1,5 @@
 import './index.css';
-import {React, useEffect} from 'react';
+import {React, useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 
 import portrait from './assets/portrait.jpg';
@@ -30,22 +30,75 @@ ReactDOM.render(
 );
 
 
+
+
+
+
 function App() {
   const location = useLocation();
+  const [activePath, setActivePath] = useState('');
 
-  //preload images
+
+
+  //preload images + set active path
   useEffect(() => {
     const img = new Image();
     img.src = portrait;
-  }, []);
+
+    switch (location.pathname) {
+      case ('/'):
+        setActivePath('home');
+        break;
+      case ('/about'):
+        setActivePath('about');
+        break;
+      case ('/projects'):
+        setActivePath('projects');
+        break;
+        case ('/contact'):
+          setActivePath('contact');
+          break;
+      default:
+          setActivePath('')
+        break;
+    }
+  }, [location.pathname]);
+
 
   return (
       <main className="main">
         <nav className="navigation">
-          <Link className="nav-link"  to="/">Home </Link>
-          <Link className="nav-link" to="/about">About </Link>
-          <Link className="nav-link" to="/projects">Projects </Link>
-          <Link className="nav-link" to="/contact">Contact </Link>
+          <Link
+            className="nav-link"
+            to="/"
+            style={activePath === 'home' ? {color:'#b47c43', cursor:'default'} : {}}
+          >
+            Home
+          </Link>
+
+          <Link
+            className="nav-link"
+            to="/about"
+            style={activePath === 'about' ? {color:'#e2abb1', cursor:'default'} : {}}
+          >
+            About
+          </Link>
+
+          <Link
+            className="nav-link"
+            to="/projects"
+            style={activePath === 'projects' ? {color:'#539cbe', cursor:'default'} : {}}
+          >
+              Projects
+          </Link>
+
+          <Link
+            className="nav-link"
+            to="/contact"
+            style={activePath === 'contact' ? {color:'#785d5f', cursor:'default'} : {}}
+          >
+            Contact
+          </Link>
         </nav>
 
         <AnimatePresence exitBeforeEnter>
