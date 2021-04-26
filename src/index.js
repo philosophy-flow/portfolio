@@ -1,10 +1,14 @@
 import './index.css';
-import React from 'react';
+import {React, useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 
 // React router
 import {BrowserRouter, Route, Switch, Link, useLocation} from 'react-router-dom';
+
+
 import {AnimatePresence} from "framer-motion";
+
+
 
 // Routes (pages)
 import Home from './components/home/Home';
@@ -25,7 +29,41 @@ ReactDOM.render(
 
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
+
+
+  // preload image assets
+  useEffect(() => {
+    const imgsArr = [
+      './assets/portrait.jpg',
+      './assets/subway.jpg'
+    ];
+
+    cacheImages(imgsArr);
+  }, []);
+
+
+  const cacheImages = async (srcArray) => {
+    const promises = await srcArray.map(src => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+
+        img.src = src;
+        img.onload = resolve();
+        img.onerror = reject();
+      });
+    });
+
+    await Promise.all(promises);
+    setIsLoading(false);
+  }
+
+  if (isLoading) {
+    return (<div>Loading</div>)
+  }
+
+
   return (
       <main className="main">
         <nav className="navigation">
