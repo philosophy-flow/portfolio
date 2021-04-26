@@ -8,6 +8,7 @@
   margin-bottom: 1vh;
 
   background-image: url("../../assets/subway.jpg");
+  border: 1px solid var(--home-bg-color);
   background-position: center;
   background-size: cover;
 }
