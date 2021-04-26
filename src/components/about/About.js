@@ -8,10 +8,7 @@ function About() {
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
           <p className="about-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin lectus non odio scelerisque laoreet. Pellentesque efficitur et enim non porttitor. Morbi in ornare nibh. Sed in ante volutpat, varius augue a, dapibus lorem. Proin vehicula non sem eu maximus. Cras euismod ornare enim eget lobortis. Sed dapibus cursus libero a lobortis.
-            <br/><br/>
-            Sed est elit, tincidunt in vehicula vitae, posuere id velit. Integer non ex at est molestie dignissim. Suspendisse potenti. Maecenas ullamcorper condimentum ornare.
-            Pellentesque efficitur et enim non porttitor. Morbi in ornare nibh. Sed in ante volutpat, varius augue a, dapibus lorem. Proin vehicula non sem eu maximus. Cras euismod ornare enim eget lobortis. Sed dapibus cursus libero a lobortis.
+            It’s exciting to live in a world of constantly evolving technology, and it's even more exciting to build things in it. My name is <span className="name">Jacob Stewart</span>, and I am a front end web developer that specializes in React. I am passionate about technology and learning new things, and I look forward to applying my knowledge in a professional environment while continuing my perpetual learning journey.
           </p>
         </div>
         <div className="portrait-container"></div>
