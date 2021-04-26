@@ -36,6 +36,16 @@ html {
   height: -webkit-fill-available;
 }
 
+/* preload about image */
+body::after{
+   position:absolute;
+   width:0;
+   height:0;
+   overflow:hidden;
+   z-index:-1;
+   content:url("./assets/portrait.jpg");
+}
+
 
 
 :root {
