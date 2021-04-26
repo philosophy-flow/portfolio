@@ -3,7 +3,7 @@
 
   width: 90%;
   max-width: 1200px;
-  height: 80vh;
+  height: 75vh;
   margin: 0 auto;
   margin-bottom: 1vh;
 
@@ -34,15 +34,13 @@
   font-size: 7vh;
 }
 
-@media only screen and (max-height: 500px){.home-text {font-size: 2.25rem;}}
-@media only screen and (max-width: 650px) {
-  .home-text {font-size: 2.75rem;}
-}
 
-@media only screen and (max-width: 450px) {
-  .Home {
-    height: 75vh;
-  }
+/* changing main home text font-size on multiple view widths */
+@media only screen and (max-width: 650px) {.home-text {font-size: 2.5rem;}}
+@media only screen and (max-width: 450px) {.home-text {font-size: 2rem;}}
 
-  .home-text {font-size: 2rem;}
+
+/* Fixed font-size on small vh displays */
+@media only screen and (max-height: 500px) {
+  .home-text {font-size: 2.5rem;}
 }
