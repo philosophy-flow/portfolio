@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 // React router
 import {BrowserRouter, Route, Switch, Link, useLocation} from 'react-router-dom';
-import {motion, AnimatePresence} from "framer-motion";
+import {AnimatePresence} from "framer-motion";
 
 // Routes (pages)
 import Home from './components/home/Home';
