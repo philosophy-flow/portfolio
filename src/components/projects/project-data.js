@@ -47,7 +47,7 @@ export const projects = [
   {
     name: 'Wiki Search',
     img: wikiSearch,
-    description: 'A React application that allows a user to search for Wikipedia results pertaining to a specific keyword. Result titles and snippets are rendered to the screen, and then a user can press a button to be directed to the corresponding Wikipedia article. Axios is used to make requests',
+    description: 'A React application that allows a user to search for Wikipedia results pertaining to a specific keyword. Result titles and snippets are rendered to the screen, and then a user can press a button to be directed to the corresponding Wikipedia article. Axios is used to make requests.',
     demoLink: 'https://wiki-search-two.vercel.app/',
     repoLink: 'https://github.com/philosophy-flow/wiki-search'
   },
