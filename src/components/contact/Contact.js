@@ -21,10 +21,10 @@ function Contact() {
           </p>
           <div className="contact-icon-container">
             <a href="https://github.com/philosophy-flow" target="_blank" rel="noreferrer">
-              <i class="fab fa-github-alt fa-2x contact-icon"></i>
+              <i className="fab fa-github-alt fa-2x contact-icon"></i>
             </a>
             <a href="https://www.linkedin.com/in/jacob-stewart-587382148/" target="_blank" rel="noreferrer">
-              <i class="fab fa-linkedin-in fa-2x contact-icon"></i>
+              <i className="fab fa-linkedin-in fa-2x contact-icon"></i>
             </a>
           </div>
         </div>

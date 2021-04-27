@@ -82,6 +82,11 @@
 
 /* portrait view */
 @media only screen and (max-width: 650px) {
+  .Projects {
+    margin-top: 0;
+  }
+
+  
   .project:nth-child(odd) {
     flex-direction: column;
   }
@@ -107,6 +112,4 @@
 
   margin-top: 2rem;
   }
-
-
 }

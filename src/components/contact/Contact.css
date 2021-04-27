@@ -6,7 +6,7 @@
   width: 90%;
   max-width: 700px;
   margin: 8vh auto;
-  height: 50vh;
+  min-height: 300px;
 }
 
 
@@ -33,4 +33,12 @@
   margin-right: 1rem;
   color: #79C7A0;
   cursor: pointer;
+}
+
+/* portrait display */
+@media only screen and (max-width: 650px) {
+  .Contact {
+    margin-top: 0rem;
+    margin-bottom: 0;
+  }
 }
