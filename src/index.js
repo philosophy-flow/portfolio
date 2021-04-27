@@ -14,6 +14,7 @@ import ScrollToTop from './ScrollToTop';
 
 
 import portrait from './assets/portrait.jpg';
+import testImg from './assets/project-images/feline-finder.png';
 
 // Routes (pages)
 import Home from './components/home/Home';
@@ -47,6 +48,9 @@ function App() {
   useEffect(() => {
     const img = new Image();
     img.src = portrait;
+
+    const img2 = new Image();
+    img2.src = testImg;
 
     switch (location.pathname) {
       case ('/'):
