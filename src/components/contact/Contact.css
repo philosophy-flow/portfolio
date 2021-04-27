@@ -88,6 +88,13 @@
   border: none;
 }
 
+.contact-form button:focus {
+  border: 2px solid var(--btn-color);
+}
+
+
+
+
 .contact-form button:hover {
   transform: translateY(-2px);
   background-color: #63a282;
