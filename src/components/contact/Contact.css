@@ -33,6 +33,12 @@
 }
 
 
+/* no hover on mobile */
+@media only screen and (min-width: 500px) {
+  .contact-icon:hover {
+    color: #63a282;
+  }
+}
 
 /* FORM */
 .contact-form {
@@ -61,6 +67,8 @@
 .contact-field input:focus {
   border: 1px solid #79C7A0;
 }
+
+
 
 .contact-field textarea {
   width: 100%;
@@ -91,8 +99,6 @@
 .contact-form button:focus {
   border: 2px solid var(--btn-color);
 }
-
-
 
 
 .contact-form button:hover {
