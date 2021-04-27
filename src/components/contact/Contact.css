@@ -23,7 +23,8 @@
 .contact-content {
   font-size: 1rem;
   line-height: 1.65;
-  margin: 1rem 0;
+  margin-bottom: .75rem;
+  margin-top: .25rem;
 }
 
 .contact-icon {
