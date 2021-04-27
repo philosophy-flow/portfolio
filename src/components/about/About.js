@@ -19,7 +19,7 @@ function About() {
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
           <p className="about-body">
-            It’s exciting to live in a world of constantly evolving technology, and it's even more exciting to build things in it. My name is <span className="bold-txt">Jacob Stewart</span>, and I am a front end web developer that specializes in the <span className="bold-txt">React</span> ecosystem. I am passionate about technology and learning new things, and I look forward to applying my knowledge in a professional environment while continuing my perpetual learning journey.
+            It’s exciting to live in a world of constantly evolving technology, and it's even more exciting to leverage that technology to craft amazing user experiences. My name is <span className="bold-txt">Jacob Stewart</span>, and I am a front end web developer that specializes in the <span className="bold-txt">React</span> ecosystem. I am passionate about learning new things, and I look forward to creatively applying my knowledge every day.
           </p>
           <div className="about-button-container">
             <Link className="about-nav-btn" to="/projects">see my work </Link>
