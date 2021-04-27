@@ -79,13 +79,13 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 0;
+    margin-bottom: 2.5rem;
   }
 
 
   /* PICTURE */
   .portrait-container {
     width: 70%;
-    /* margin-bottom: 1.5rem; */
   }
 
 
@@ -95,20 +95,10 @@
     margin-right: 0;
   }
 
-  .about-header {
-    text-align: center;
-  }
-
   .about-body {
     margin-top: .5rem;
     margin-bottom: 1.25rem;
     line-height: 1.5;
-  }
-
-
-  /* BUTTONS */
-  .about-button-container {
-    text-align: center;
   }
 
 
