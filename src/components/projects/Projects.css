@@ -20,6 +20,7 @@
 }
 
 
+/* PICTURE */
 .project-img-container {
   width: 50%;
   display: flex;
@@ -31,6 +32,9 @@
   height: auto;
 }
 
+
+
+/* CONTENT */
 .project-content-container {
   width: 45%;
   border-top: 2px solid var(--btn-color);
@@ -85,4 +89,24 @@
   .project:nth-child(even) {
     flex-direction: column;
   }
+
+  .project {
+    align-items: center;
+  }
+
+
+  /* PICTURE */
+  .project-img-container {
+    width: 90%;
+  }
+
+
+  /* CONTENT */
+  .project-content-container {
+    width: 90%;
+
+  margin-top: 2rem;
+  }
+
+
 }
