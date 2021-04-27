@@ -12,9 +12,9 @@ import ScrollToTop from './ScrollToTop';
 
 
 
-
+// preload certain images for efficiency
 import portrait from './assets/portrait.jpg';
-import testImg from './assets/project-images/feline-finder.png';
+import firstProjectImg from './assets/project-images/feline-finder.png';
 
 // Routes (pages)
 import Home from './components/home/Home';
@@ -44,14 +44,17 @@ function App() {
 
 
 
-  //preload images + set active path
+  //preload images
   useEffect(() => {
     const img = new Image();
     img.src = portrait;
 
     const img2 = new Image();
-    img2.src = testImg;
+    img2.src = firstProjectImg;
+  });
 
+  // set active path
+  useEffect(() => {
     switch (location.pathname) {
       case ('/'):
         setActivePath('home');
