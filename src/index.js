@@ -2,15 +2,18 @@ import './index.css';
 import {React, useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 
-import portrait from './assets/portrait.jpg';
-
 // React router
 import {BrowserRouter, Route, Switch, Link, useLocation} from 'react-router-dom';
 
-
+// Framer mortion
 import {AnimatePresence} from "framer-motion";
 
+import ScrollToTop from './ScrollToTop';
 
+
+
+
+import portrait from './assets/portrait.jpg';
 
 // Routes (pages)
 import Home from './components/home/Home';
@@ -101,15 +104,17 @@ function App() {
           </Link>
         </nav>
 
-        <AnimatePresence exitBeforeEnter>
-          <Switch location={location} key={location.pathname}>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
-            <Route component={Error} />
-          </Switch>
-        </AnimatePresence>
+        <ScrollToTop>
+          <AnimatePresence exitBeforeEnter>
+            <Switch location={location} key={location.pathname}>
+              <Route path="/" component={Home} exact />
+              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+              <Route component={Error} />
+            </Switch>
+          </AnimatePresence>
+        </ScrollToTop>
       </main>
   )
 }
