@@ -26,8 +26,8 @@ function Projects() {
                   <h2 className="project-name">{project.name}</h2>
                   <p className="project-description">{project.description}</p>
                   <div className="project-link-container">
-                    <a className="project-link" href={project.demoLink}>live demo</a>
-                    <a className="project-link" href={project.repoLink}>github</a>
+                    <a className="project-link" href={project.demoLink} target="_blank" rel="noreferrer">live demo</a>
+                    <a className="project-link" href={project.repoLink} target="_blank" rel="noreferrer">github</a>
                   </div>
                 </div>
 
