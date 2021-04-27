@@ -97,7 +97,7 @@ function App() {
           <Link
             className="nav-link"
             to="/projects"
-            style={activePath === 'projects' ? {color:'#63939a', cursor:'default'} : {}}
+            style={activePath === 'projects' ? {color:'#539cbe', cursor:'default'} : {}}
           >
               Projects
           </Link>
@@ -105,7 +105,7 @@ function App() {
           <Link
             className="nav-link"
             to="/contact"
-            style={activePath === 'contact' ? {color:'#539cbe', cursor:'default'} : {}}
+            style={activePath === 'contact' ? {color:'#79C7A0', cursor:'default'} : {}}
           >
             Contact
           </Link>

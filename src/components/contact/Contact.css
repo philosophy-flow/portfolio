@@ -1,0 +1,36 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 90%;
+  max-width: 700px;
+  margin: 8vh auto;
+  height: 50vh;
+}
+
+
+.contact-head-container {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--btn-color);
+}
+
+.contact-header {
+  font-size: 1.75rem;
+}
+
+.contact-content {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 1rem 0;
+}
+
+.contact-icon-container {
+
+}
+
+.contact-icon {
+  margin-right: 1rem;
+  color: #79C7A0;
+  cursor: pointer;
+}
