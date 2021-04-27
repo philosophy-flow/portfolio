@@ -25,7 +25,7 @@
 /* TEXT CONTENT */
 .about-text-container {
   width: 70%;
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
 }
 
 .about-header {
@@ -63,6 +63,16 @@
 }
 
 
+
+/* BORDER */
+.about-border {
+  width: 1px;
+  margin: 4rem;
+  height: 30vh;
+  border: 1px solid var(--btn-color);
+}
+
+
 /* portrait view */
 @media only screen and (max-width: 650px) {
   .About {
@@ -76,7 +86,7 @@
   /* PICTURE */
   .portrait-container {
     width: 70%;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
   }
 
 
@@ -100,5 +110,15 @@
   /* BUTTONS */
   .about-button-container {
     text-align: center;
+  }
+
+
+  /* BORDER */
+  .about-border {
+    width: 1px;
+    margin: 2.5rem;
+    height: 1px;
+    width: 30vw;
+    border: 1px solid var(--btn-color);
   }
 }

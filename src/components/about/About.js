@@ -26,6 +26,7 @@ function About() {
             <Link className="about-nav-btn" to="/contact">get in touch </Link>
           </div>
         </div>
+        <div className="about-border"></div>
         <div className="portrait-container">
           <img src={portrait} className="portrait" alt="portrait" />
         </div>
