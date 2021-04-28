@@ -42,13 +42,8 @@ html {
   font-family: var(--sub-font);
   background-color: var(--home-bg-color);
 
-  height: -webkit-fill-available;
 }
 
-body {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
 
 
 /* MAIN = APP BODY */
@@ -59,9 +54,6 @@ body {
   flex-direction: column;
   animation: fadeIn 2s;
   min-height: 100vh;
-
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 
