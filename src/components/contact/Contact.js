@@ -17,7 +17,7 @@ function Contact() {
         <div className="contact-head-container">
           <h2 className="contact-header">Let's Connect</h2>
           <p className="contact-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at cursus nulla, eget pharetra risus. Vestibulum mollis tellus at orci sodales euismod. Integer dictum felis sit amet purus faucibus, sed maximus odio pellentesque.
+            See something you like? Just want to say hi? Don't hesitate to reach out. I am always open to professional and creative opportunities, and I would love to hear what's on your mind. Let's turn your idea into a reality.
           </p>
           <div className="contact-icon-container">
             <a href="https://github.com/philosophy-flow" target="_blank" rel="noreferrer">
