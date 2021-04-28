@@ -7,9 +7,12 @@
   margin: 0 auto;
   margin-bottom: 1vh;
 
-  background-image: url("../../assets/subway.jpg");
+  /* background-image: url("../../assets/subway.jpg"); */
+  /* background-image: url("../../assets/test.jpg"); */
   background-position: center;
   background-size: cover;
+
+  transition: .5s;
 }
 
 .home-content-container {
