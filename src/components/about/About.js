@@ -1,5 +1,6 @@
 import './About.css';
 import portrait from '../../assets/portrait.jpg';
+import resume from '../../assets/resume.pdf';
 
 import React from 'react';
 import {Link} from 'react-router-dom';
@@ -22,8 +23,23 @@ function About() {
             It’s exciting to live in a world of constantly evolving technology, and it's even more exciting to leverage that technology to craft amazing user experiences. My name is <span className="bold-txt">Jacob Stewart</span>, and I am a front end web developer that specializes in the <span className="bold-txt">React</span> ecosystem. I am passionate about learning new things, and I look forward to creatively applying my knowledge every day.
           </p>
           <div className="about-button-container">
-            <Link className="about-nav-btn" to="/projects">see my work </Link>
-            <Link className="about-nav-btn" to="/contact">get in touch </Link>
+            <button className="about-nav-btn">
+              <Link className="about-nav-link" to="/projects">see my work </Link>
+            </button>
+
+            <button className="about-nav-btn">
+              <Link className="about-nav-link" to="/contact">get in touch </Link>
+            </button>
+
+            <button className="about-nav-btn">
+              <a
+                className="about-nav-link"
+                href={resume}
+                download="jacob-stewart-resume"
+              >
+                resume
+              </a>
+            </button>
           </div>
         </div>
         <div className="about-border"></div>
