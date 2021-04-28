@@ -4,7 +4,12 @@ import { withRouter } from 'react-router-dom';
 function ScrollToTop({ history, children }) {
   useEffect(() => {
     const unlisten = history.listen(() => {
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        /* you can also use 'auto' behaviour
+           in place of 'smooth' */
+      });
     });
     return () => {
       unlisten();

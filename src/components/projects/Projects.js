@@ -1,6 +1,7 @@
 import './Projects.css';
 
 import React from 'react';
+import ScrollButton from './ScrollButton';
 import {motion} from "framer-motion";
 
 import {projects} from './project-data';
@@ -30,11 +31,11 @@ function Projects() {
                     <a className="project-link" href={project.repoLink} target="_blank" rel="noreferrer">github</a>
                   </div>
                 </div>
-
               </div>
             );
           })
         }
+        <ScrollButton />
       </motion.section>
     </>
   );

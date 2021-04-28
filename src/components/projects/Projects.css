@@ -79,6 +79,41 @@
 }
 
 
+/* SCROLL BUTTON */
+.scroll-button {
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: .5rem;
+  outline: none;
+  border: none;
+  background-color: rgba(141, 142, 143, 0.21);
+}
+
+
+.scroll-button {
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: .5rem;
+  outline: none;
+  border: none;
+  background-color: rgba(141, 142, 143, 0.21);
+}
+
+.scroll-button:hover {
+  background-color: rgba(141, 142, 143, 0.5);
+  transition: .25s;
+  color: var(--home-bg-color);
+}
+
+
 
 /* portrait view */
 @media only screen and (max-width: 650px) {
@@ -86,7 +121,7 @@
     margin-top: 0;
   }
 
-  
+
   .project:nth-child(odd) {
     flex-direction: column;
   }
