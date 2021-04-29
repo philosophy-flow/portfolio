@@ -101,10 +101,6 @@ html {
 
 /* MOBILE */
 @media only screen and (max-width: 450px) {
-  html, body, #root {
-    min-height: -webkit-fill-available;
-  }
-
   .main {
     min-height: -webkit-fill-available;
   }
