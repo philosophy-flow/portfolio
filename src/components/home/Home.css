@@ -40,9 +40,9 @@
   .home-text {font-size: 2rem;}
 
   /* making space for mobile browser nav */
-  .Home {
+  /* .Home {
     height: 74vh;
-  }
+  } */
 }
 
 /* Fixed font-size on small vh displays */
