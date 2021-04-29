@@ -82,21 +82,8 @@
 /* SCROLL BUTTON */
 .scroll-button {
   position: fixed;
-  left: 1%;
-  bottom: 1%;
-  z-index: 1;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: .5rem;
-  outline: none;
-  border: none;
-  background-color: rgba(141, 142, 143, 0.21);
-}
-
-
-.scroll-button {
-  position: fixed;
-  left: 1%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 1%;
   z-index: 1;
   cursor: pointer;
@@ -105,8 +92,12 @@
   outline: none;
   border: none;
   background-color: rgba(141, 142, 143, 0.21);
+  background-color: rgba(83, 156, 190, 0.5);
 }
 
+
+/* no hover on mobile */
+@media only screen and (min-width: 500px)
 .scroll-button:hover {
   background-color: rgba(141, 142, 143, 0.5);
   transition: .25s;
