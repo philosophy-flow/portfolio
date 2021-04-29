@@ -34,6 +34,8 @@ function About() {
               <a
                 className="about-nav-link"
                 href="https://pdfhost.io/v/rwyFSwvRg_JS.pdf"
+                target="_blank"
+                rel="noreferrer"
               >
                 resume
               </a>
