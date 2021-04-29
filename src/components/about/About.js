@@ -34,8 +34,7 @@ function About() {
             <button className="about-nav-btn">
               <a
                 className="about-nav-link"
-                href={resume}
-                download="jacob-stewart-resume"
+                href="https://pdfhost.io/v/rwyFSwvRg_JS.pdf"
               >
                 resume
               </a>
