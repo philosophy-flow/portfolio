@@ -97,12 +97,14 @@
 
 
 /* no hover on mobile */
-@media only screen and (min-width: 500px)
-.scroll-button:hover {
-  background-color: rgba(141, 142, 143, 0.5);
-  transition: .25s;
-  color: var(--home-bg-color);
+@media only screen and (min-width: 500px) {
+  .scroll-button:hover {
+    background-color: rgba(141, 142, 143, 0.5);
+    transition: .25s;
+    color: var(--home-bg-color);
+  }
 }
+
 
 
 
