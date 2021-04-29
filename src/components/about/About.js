@@ -1,6 +1,5 @@
 import './About.css';
 import portrait from '../../assets/portrait.jpg';
-import resume from '../../assets/resume.pdf';
 
 import React from 'react';
 import {Link} from 'react-router-dom';
