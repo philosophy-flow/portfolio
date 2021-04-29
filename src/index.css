@@ -102,7 +102,7 @@ html {
 /* MOBILE */
 @media only screen and (max-width: 450px) {
   .main {
-    height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
   }
 
   .navigation {
