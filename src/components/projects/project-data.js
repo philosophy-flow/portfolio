@@ -3,7 +3,7 @@ import signUpImg from '../../assets/project-images/signup-form.png';
 import pricingCompImg from '../../assets/project-images/interactive-pricing-component.png';
 import crowdfundingProduct from '../../assets/project-images/crowdfunding-product.png';
 import bookFinder from '../../assets/project-images/book-finder.png';
-import wikiSearch from '../../assets/project-images/wiki-search.png';
+import quizApp from '../../assets/project-images/quiz-app.png';
 import todoList from '../../assets/project-images/to-do-app.png';
 import jobFilter from '../../assets/project-images/job-filter.png';
 
@@ -45,11 +45,11 @@ export const projects = [
     repoLink: 'https://github.com/philosophy-flow/book-finder'
   },
   {
-    name: 'Wiki Search',
-    img: wikiSearch,
-    description: 'A React application that allows a user to search for Wikipedia results pertaining to a specific keyword. Result titles and snippets are rendered to the screen, and then a user can press a button to be directed to the corresponding Wikipedia article. Axios is used to make requests.',
-    demoLink: 'https://wiki-search-two.vercel.app/',
-    repoLink: 'https://github.com/philosophy-flow/wiki-search'
+    name: 'Pick a Quiz',
+    img: quizApp,
+    description: 'A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.',
+    demoLink: 'https://pickaquiz.netlify.app/',
+    repoLink: 'https://github.com/philosophy-flow/pick-a-quiz'
   },
   {
     name: 'To Do List w/ Theme Selector',
