@@ -33,7 +33,7 @@ function About() {
             <button className="about-nav-btn">
               <a
                 className="about-nav-link"
-                href="https://pdfhost.io/v/rwyFSwvRg_JS.pdf"
+                href="https://pdfhost.io/v/EWPtiM01Q_JS.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
