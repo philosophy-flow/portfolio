@@ -7,8 +7,12 @@
   margin: 0 auto;
   margin-bottom: 1vh;
 
-  background-image: url("../../assets/subway.jpg");
+  /* background-image: url("../../assets/subway.jpg");
   background-position: center;
+  background-size: cover; */
+
+  /* background asset provided by vecteezy */
+  background-image: url("../../assets/nyc.svg");
   background-size: cover;
 }
 
