@@ -6,6 +6,8 @@ import bookFinder from '../../assets/project-images/book-finder.png';
 import quizApp from '../../assets/project-images/quiz-app.png';
 import todoList from '../../assets/project-images/to-do-app.png';
 import jobFilter from '../../assets/project-images/job-filter.png';
+import meetLandingPage from '../../assets/project-images/meet-landing-page.png';
+import podLandingPage from '../../assets/project-images/pod-landing-page.png';
 
 
 export const projects = [
@@ -17,11 +19,25 @@ export const projects = [
     repoLink: 'https://github.com/philosophy-flow/felinefinder'
   },
   {
+    name: '"Meet" Landing Page',
+    img: meetLandingPage,
+    description: 'A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.',
+    demoLink: 'https://philosophy-flow.github.io/meet-landing-page/',
+    repoLink: 'https://github.com/philosophy-flow/meet-landing-page'
+  },
+  {
     name: 'Adaptive Signup Form',
     img: signUpImg,
     description: 'A responsive sign up form built using CSS grid. It demonstrates the power and simplicity of the grid system and also features basic front end validation using JavaScript.',
     demoLink: 'https://philosophy-flow.github.io/intro-component-with-signup-form-/',
     repoLink: 'https://github.com/philosophy-flow/intro-component-with-signup-form-'
+  },
+  {
+    name: '"Pod" Landing Page',
+    img: podLandingPage,
+    description: 'A mobile first, fully responsive landing page for an app named Pod. Multiple breakpoints were created to strategically compliment the content, and special attention was paid to tablet displays. A small amount of JavaScript was utilized to create custom email validation for the form.',
+    demoLink: 'https://philosophy-flow.github.io/pod-request-landing-page/',
+    repoLink: 'https://github.com/philosophy-flow/pod-request-landing-page'
   },
   {
     name: 'Custom Pricing Component',
