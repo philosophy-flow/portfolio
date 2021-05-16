@@ -8,6 +8,7 @@ import todoList from '../../assets/project-images/to-do-app.png';
 import jobFilter from '../../assets/project-images/job-filter.png';
 import meetLandingPage from '../../assets/project-images/meet-landing-page.png';
 import podLandingPage from '../../assets/project-images/pod-landing-page.png';
+import typemasterLandingPage from '../../assets/project-images/typemaster.png';
 
 
 export const projects = [
@@ -45,6 +46,13 @@ export const projects = [
     description: 'An interactive pricing component that features a customized range bar and toggle button by utilizing CSS pseudo selectors. Functional programming concepts are used to manage state based on the slider bar value and whether or not a discount is applied.',
     demoLink: 'https://philosophy-flow.github.io/interactive-pricing-component/',
     repoLink: 'https://github.com/philosophy-flow/interactive-pricing-component'
+  },
+  {
+    name: 'Product Landing Page',
+    img: typemasterLandingPage,
+    description: 'A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.',
+    demoLink: 'https://philosophy-flow.github.io/typemaster-landing-page/',
+    repoLink: 'https://github.com/philosophy-flow/typemaster-landing-page'
   },
   {
     name: 'Crowdfunding Product Page',
