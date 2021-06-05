@@ -14,7 +14,7 @@ import ScrollToTop from './ScrollToTop';
 
 // preload certain images for efficiency
 import portrait from './assets/portrait.jpg';
-import firstProjectImg from './assets/project-images/feline-finder.png';
+import firstProjectImg from './assets/project-images/feline-finder-img.png';
 
 // Routes (pages)
 import Home from './components/home/Home';
