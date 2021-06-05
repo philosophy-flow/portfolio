@@ -1,14 +1,14 @@
-import felineFinderImg from '../../assets/project-images/feline-finder.png';
-import signUpImg from '../../assets/project-images/signup-form.png';
-import pricingCompImg from '../../assets/project-images/interactive-pricing-component.png';
-import crowdfundingProduct from '../../assets/project-images/crowdfunding-product.png';
-import bookFinder from '../../assets/project-images/book-finder.png';
-import quizApp from '../../assets/project-images/quiz-app.png';
-import todoList from '../../assets/project-images/to-do-app.png';
-import jobFilter from '../../assets/project-images/job-filter.png';
-import meetLandingPage from '../../assets/project-images/meet-landing-page.png';
-import podLandingPage from '../../assets/project-images/pod-landing-page.png';
-import typemasterLandingPage from '../../assets/project-images/typemaster.png';
+import felineFinderImg from '../../assets/project-images/feline-finder-img.png';
+import signUpImg from '../../assets/project-images/signup-form-img.png';
+import pricingCompImg from '../../assets/project-images/interactive-pricing-component-img.png';
+import crowdfundingProduct from '../../assets/project-images/crowdfunding-product-img.png';
+import bookFinder from '../../assets/project-images/book-finder-img.png';
+import quizApp from '../../assets/project-images/quiz-app-img.png';
+import todoList from '../../assets/project-images/to-do-app-img.png';
+import jobFilter from '../../assets/project-images/job-filter-img.png';
+import meetLandingPage from '../../assets/project-images/meet-landing-page-img.png';
+import podLandingPage from '../../assets/project-images/pod-landing-page-img.png';
+import typemasterLandingPage from '../../assets/project-images/typemaster-img.png';
 
 
 export const projects = [
