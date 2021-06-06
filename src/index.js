@@ -35,9 +35,6 @@ ReactDOM.render(
 
 
 
-
-
-
 function App() {
   const location = useLocation();
   const [activePath, setActivePath] = useState('');
