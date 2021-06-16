@@ -26,7 +26,7 @@ function About() {
               <Link className="about-nav-link" to="/contact">get in touch </Link>
               <a
                 className="about-nav-link"
-                href="https://pdfhost.io/v/EWPtiM01Q_JS.pdf"
+                href="https://pdfhost.io/v/bIZSKet7f_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
