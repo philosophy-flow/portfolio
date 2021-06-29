@@ -59,15 +59,15 @@ export const projects = [
     name: 'Book Finder',
     img: bookFinder,
     description: 'An application that uses the Google Books API to retrieve information related to the user\'s input. Title information, author information, a picture of the book, a snippet of the book\'s description, and a link to more information is displayed. Flexbox was used to position the result cards, and CSS grid was used to position the content within each card. The fetch API is used to make requests.',
-    demoLink: 'https://planetary-factz.netlify.app/Earth',
-    repoLink: 'https://github.com/philosophy-flow/planets-fact-app'
+    demoLink: 'https://philosophy-flow.github.io/book-finder/',
+    repoLink: 'https://github.com/philosophy-flow/book-finder'
   },
   {
     name: 'Planetary Facts',
     img: planetaryFacts,
     description: 'A mobile first, fully responsive React application that provides information pertaining to the planets of the Solar System. Each planet page features key information at the bottom and three separate tabs that include additional information/images.',
-    demoLink: 'https://philosophy-flow.github.io/book-finder/',
-    repoLink: 'https://github.com/philosophy-flow/book-finder'
+    demoLink: 'https://planetary-factz.netlify.app/Earth',
+    repoLink: 'https://github.com/philosophy-flow/planets-fact-app'
   },
   {
     name: 'Chatter',
