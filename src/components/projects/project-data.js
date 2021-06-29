@@ -1,8 +1,8 @@
 import felineFinderImg from '../../assets/project-images/feline-finder-img.png';
-import signUpImg from '../../assets/project-images/signup-form-img.png';
 import pricingCompImg from '../../assets/project-images/interactive-pricing-component-img.png';
 import crowdfundingProduct from '../../assets/project-images/crowdfunding-product-img.png';
 import bookFinder from '../../assets/project-images/book-finder-img.png';
+import planetaryFacts from '../../assets/project-images/planetary-facts.png';
 import chatter from '../../assets/project-images/chatter-app-img.png';
 import quizApp from '../../assets/project-images/quiz-app-img.png';
 import todoList from '../../assets/project-images/to-do-app-img.png';
@@ -26,13 +26,6 @@ export const projects = [
     description: 'A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.',
     demoLink: 'https://philosophy-flow.github.io/meet-landing-page/',
     repoLink: 'https://github.com/philosophy-flow/meet-landing-page'
-  },
-  {
-    name: 'Adaptive Signup Form',
-    img: signUpImg,
-    description: 'A responsive sign up form built using CSS grid. It demonstrates the power and simplicity of the grid system and also features basic front end validation using JavaScript.',
-    demoLink: 'https://philosophy-flow.github.io/intro-component-with-signup-form-/',
-    repoLink: 'https://github.com/philosophy-flow/intro-component-with-signup-form-'
   },
   {
     name: '"Pod" Landing Page',
@@ -66,6 +59,13 @@ export const projects = [
     name: 'Book Finder',
     img: bookFinder,
     description: 'An application that uses the Google Books API to retrieve information related to the user\'s input. Title information, author information, a picture of the book, a snippet of the book\'s description, and a link to more information is displayed. Flexbox was used to position the result cards, and CSS grid was used to position the content within each card. The fetch API is used to make requests.',
+    demoLink: 'https://planetary-factz.netlify.app/Earth',
+    repoLink: 'https://github.com/philosophy-flow/planets-fact-app'
+  },
+  {
+    name: 'Planetary Facts',
+    img: planetaryFacts,
+    description: 'A mobile first, fully responsive React application that provides information pertaining to the planets of the Solar System. Each planet page features key information at the bottom and three separate tabs that include additional information/images.',
     demoLink: 'https://philosophy-flow.github.io/book-finder/',
     repoLink: 'https://github.com/philosophy-flow/book-finder'
   },
