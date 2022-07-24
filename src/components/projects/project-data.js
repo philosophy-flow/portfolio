@@ -1,7 +1,7 @@
 import felineFinderImg from "../../assets/project-images/feline-finder-img.png";
 import pricingCompImg from "../../assets/project-images/interactive-pricing-component-img.png";
 import crowdfundingProduct from "../../assets/project-images/crowdfunding-product-img.png";
-import bookFinder from "../../assets/project-images/book-finder-img.png";
+import invoiceApp from "../../assets/project-images/invoice-app-img.png";
 import planetaryFacts from "../../assets/project-images/planetary-facts.png";
 import quizApp from "../../assets/project-images/quiz-app-img.png";
 import todoList from "../../assets/project-images/to-do-app-img.png";
@@ -62,12 +62,12 @@ export const projects = [
     repoLink: "https://github.com/philosophy-flow/crowdfunding-product-page",
   },
   {
-    name: "Book Finder",
-    img: bookFinder,
+    name: "Invoice Application",
+    img: invoiceApp,
     description:
-      "An application that uses the Google Books API to retrieve information related to the user's input. Title information, author information, a picture of the book, a snippet of the book's description, and a link to more information is displayed. Flexbox was used to position the result cards, and CSS grid was used to position the content within each card. The fetch API is used to make requests.",
-    demoLink: "https://philosophy-flow.github.io/book-finder/",
-    repoLink: "https://github.com/philosophy-flow/book-finder",
+      "A mobile first, fully responsive React application that features a complex form built with formik/yup. Additionally, this project integrates the React Datepicker and React Select libraries in order to provide a more robust and customized experience. A user is able to create, modify, and delete invoices that feature many different properties. Tailwind is used for almost all custom CSS, including animations and responsive breakpoints.",
+    demoLink: "https://invoice-application.vercel.app/invoices",
+    repoLink: "https://github.com/philosophy-flow/invoice-application",
   },
   {
     name: "Planetary Facts",
