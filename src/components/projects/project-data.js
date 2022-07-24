@@ -78,14 +78,6 @@ export const projects = [
     repoLink: "https://github.com/philosophy-flow/planets-fact-app",
   },
   {
-    name: "Pick a Quiz",
-    img: quizApp,
-    description:
-      "A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.",
-    demoLink: "https://pickaquiz.netlify.app/",
-    repoLink: "https://github.com/philosophy-flow/pick-a-quiz",
-  },
-  {
     name: "To Do List w/ Theme Selector",
     img: todoList,
     description:
@@ -100,5 +92,13 @@ export const projects = [
       "A React application that displays a list of job opportunities, allowing the user to select multiple filter criteria. The user is also able to remove individual filters or clear all selected filters. A complex implementation of the filter array method is utilized to compare initial listing data to the filter object.",
     demoLink: "https://react-job-filter-app.netlify.app/",
     repoLink: "https://github.com/philosophy-flow/react-job-filter",
+  },
+  {
+    name: "Pick a Quiz",
+    img: quizApp,
+    description:
+      "A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.",
+    demoLink: "https://pickaquiz.netlify.app/",
+    repoLink: "https://github.com/philosophy-flow/pick-a-quiz",
   },
 ];
